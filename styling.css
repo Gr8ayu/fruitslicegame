@@ -1,0 +1,133 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, #fff, #ccc);
+}
+#container {
+    height: 600px;
+    width: 800px;
+    background-color: #9DD2EA;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px #009de4;
+    position: relative;
+}
+
+#scorebox {
+    background-color: #F1FF92;
+    color: #888E5F;
+    padding: 10px;
+    position: absolute;
+    left: 700px;
+    box-shadow: 0px 4px #9da853;
+    
+}
+
+#correct {
+    position: absolute;
+    left: 280px;
+    margin-top: -50px;
+    background-color: #42e252;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+
+#tryagain {
+    position: absolute;
+    left: 280px;
+    margin-top: -50px;
+    background-color: #de401a;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+
+#fruitscontainer {
+    width: 650px;
+    height: 450px;
+    margin: 50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+#instruction {
+    width: 500px;
+    height: 50px;
+    background-color: #B481D9;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #8153a8;
+    
+}
+
+
+
+#startreset{
+     width: 100px;
+    height: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#trialsleft {
+    width: 100px;
+    height: 15px;
+    padding: 10px;
+    position: absolute;
+    background-color: #F1FF92;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 4px #9da853;
+    display: none;
+    
+}
+
+#gameover {
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#F3CA6B, #F3706C);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 185px;
+    left: 165px;
+    z-index: 2;
+    opacity: 0.95;
+    display: none;
+}
+
+.life{
+    width: 16px;
+    height: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+}
